@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  angular-dev:
+    image: node:18
+    working_dir: /app
+    ports:
+      - "4200:4200"
+    volumes:
+      - .:/app
+    command: bash -c "npm install -g @angular/cli && npm install && npm start -- --host 0.0.0.0"
+    environment:
+      - NODE_ENV=development
