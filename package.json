@@ -1,14 +1,13 @@
 {
-  "name": "ngrx.io-example",
-  "version": "0.0.0",
+  "name": "ngrxbookexample",
+  "description": "An example Angular application using NgRx for state management in a bookstore context.",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
@@ -38,18 +37,7 @@
     "@angular/language-service": "16.0.4",
     "@ngrx/schematics": "16.0.1",
     "@ngrx/store-devtools": "16.0.1",
-    "@types/jasminewd2": "~2.0.3",
-    "jasmine-core": "~4.1.0",
-    "jasmine-marbles": "^0.9.1",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage-istanbul-reporter": "~3.0.2",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "^2.0.0",
-    "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
     "typescript": "4.9.4"
   }
 }
